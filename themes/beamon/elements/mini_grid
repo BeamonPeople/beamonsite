@@ -1,0 +1,30 @@
+<?php
+Loader::model('page_list');
+
+class GridList
+{
+	private $page;
+	private $pageList;
+	private $emphasizeList;
+	private $liList = array();
+	private $cssClass = "page-list clearfix";
+	public $pageArray;
+	public function __construct($page,$labelBool,$extraArgs = false)
+	{
+		$this->img = Loader::helper('image');
+		$this->page = $page;
+		$this->editMode = $editMode;
+		$this->pageList = new PageList();
+		$this->pageList->filterByParentID($page->getCollectionID());
+		$this->pageList->sortByDisplayOrder();
+		$this->pages = $this->pageList->get();
+		$this->imgWidth = 186;
+		$this->imgHeight = 186;
+		if($extraArgs != false)
+			$this->argsArray = $extraArgs;
+	}
+	
+}
+
+
+?>

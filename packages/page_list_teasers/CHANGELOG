@@ -1,0 +1,3 @@
+1.2 - Now requires Concrete5.5 or higher. Better word truncation, simplified template, helper function returns a string instead of outputting excerpt (making it more useful for other code), updated icon.
+1.01 - Fixed bug where including another page list block in the page list content caused a php fatal error (by excluding the output of other page list blocks within the teaser template altogether)
+1.0 - Initial Version

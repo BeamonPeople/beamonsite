@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btStartPageCircle">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="imageID" type="I">
+			<unsigned />
+			<default value="0" />
+		</field>
+		<field name="Heading" type="X">
+			<default value="" />
+		</field>
+		<field name="Text" type="X">
+			<default value="" />
+		</field>
+		<field name="linkID" type="I">
+			<unsigned />
+			<default value="0" />
+		</field>
+		<field name="linkText" type="X">
+			<default value="" />
+		</field>
+	</table>
+</schema>
