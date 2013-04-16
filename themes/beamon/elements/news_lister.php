@@ -28,7 +28,7 @@ class NewsLister
 		}
 		if($this->options["full"])
 		{
-			echo '<article><h3>'.$page->getCollectionName().'</h3><time datetime="'.$page->getCollectionDatePublic().'">'.$page->getCollectionDatePublic("d F Y").'</time>';
+			echo '<article><h3>'."<a href='".View::url($page->getCollectionPath())."' title='Läs mer'>".$page->getCollectionName().'</a></h3><time datetime="'.$page->getCollectionDatePublic().'">'.$page->getCollectionDatePublic("d F Y").'</time>';
 			foreach($page->getBlocks() as $block)
 			{
 				/* Äsch. Block är ju en Array. Verkar jobbigt.

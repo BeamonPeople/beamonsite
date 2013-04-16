@@ -69,7 +69,7 @@ h1{font-size:50px;line-height:55px;}
 .section-header h1{font-size:42px;}
 .thin{margin-bottom: 20px}
 
-.company-name{font-size:16px;text-align: right;}
+.company-name{font-size:16px;text-align: right;position: relative;top:18px;}
 
 /* components */
 .career-list .career,.news-list-full article{text-align: left;margin-bottom:20px;display:inline-block;vertical-align: top;width:600px;}
@@ -79,7 +79,9 @@ h1{font-size:50px;line-height:55px;}
 .news-list-full{text-align: center;padding-bottom:20px;}
 .news-list-full .span12{text-align:left;}
 .news-list-full article .youtubeBlock iframe, .news-list-full article .youtubeBlock{max-width: 100%;margin:5px auto;text-align: center;}
-.news-list a{color:rgb(119, 119, 119);text-decoration: underline;display:block}
+.news-list a, .career a{color:rgb(119, 119, 119);text-decoration: underline;display:block}
+.news-list h3 a, .career h3 a{text-decoration: none;color: black;}
+.news-list a:hover, .career a:hover {color: #00af4c;}
 .news-list a.green{margin-top:20px;text-decoration: none}
 .news-list .ccm-pagination{position: absolute;bottom:-20px;width:100%;}
 .news-list #infscr-loading{
@@ -98,7 +100,8 @@ h1{font-size:50px;line-height:55px;}
 .news-list article p:last-child {margin-bottom: -5px;}
 .news-list article:after {
     display: block;
-    color:#00af4c;
+    color:transparent;
+/*     color:#00af4c; */
     position: relative;
     content: "...";
     font-size: 18px;
