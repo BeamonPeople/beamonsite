@@ -1,2 +1,4 @@
+.htaccess
+.htpasswd
 config/site.php
 files/cache/*
