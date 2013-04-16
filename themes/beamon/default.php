@@ -121,7 +121,7 @@ $this->inc('elements/news_lister.php');
 							<p>UX/Webb</p>
 						</li><li>
 							<div class="bubble"><img alt="QA/Test" src="/files/9713/5582/3141/qa-test.png"></div>
-							<p>QA/qa-test</p>
+							<p>QA/Test</p>
 						</li></ul>
 				</div>
 			</div>
