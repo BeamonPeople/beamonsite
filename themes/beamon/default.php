@@ -105,23 +105,23 @@ $this->inc('elements/news_lister.php');
 				</div>
 				<div class="span6">
 					<ul class="competences mini"><li>
-							<div class="bubble"><img alt="Strategi" src="/files/8913/5582/3141/strategi.png"></div>
+							<div class="bubble"><img alt="Strategi" src="files/8913/5582/3141/strategi.png"></div>
 							<p>Strategi</p>
 						</li><li>
-							<div class="bubble"><img alt="Ledning" src="/files/1813/5582/3142/ledning.png"></div>
+							<div class="bubble"><img alt="Ledning" src="files/1813/5582/3142/ledning.png"></div>
 							<p>Ledning</p>
 						</li><li>
-							<div class="bubble"><img alt="Krav" src="/files/9513/5582/3143/krav.png"></div>
+							<div class="bubble"><img alt="Krav" src="files/9513/5582/3143/krav.png"></div>
 							<p>Krav</p>
 						</li><li>
-							<div class="bubble"><img alt="Arkitektur/Utveckling" src="/files/4013/5582/3144/arkitektur-utveckling.png"></div>
+							<div class="bubble"><img alt="Arkitektur/Utveckling" src="files/4013/5582/3144/arkitektur-utveckling.png"></div>
 							<p>Arkitektur/ Utveckling</p>
 						</li><li>
-							<div class="bubble"><img alt="UX/Webb" src="/files/1113/5582/3140/ux-webb.png"></div>
+							<div class="bubble"><img alt="UX/Webb" src="files/1113/5582/3140/ux-webb.png"></div>
 							<p>UX/Webb</p>
 						</li><li>
-							<div class="bubble"><img alt="QA/Test" src="/files/9713/5582/3141/qa-test.png"></div>
-							<p>QA/Test</p>
+							<div class="bubble"><img alt="QA/Test" src="files/9713/5582/3141/qa-test.png"></div>
+							<p>QA/qa-test</p>
 						</li></ul>
 				</div>
 			</div>

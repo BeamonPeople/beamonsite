@@ -2,3 +2,7 @@
 .htpasswd
 config/site.php
 files/cache/*
+.idea/*
+concrete/*
+updates/*
+files/*
