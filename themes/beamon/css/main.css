@@ -476,7 +476,7 @@ footer .container{padding:30px 10px 0 10px;}
 		-o-user-select: none;
 		user-select: none;  
 }
-#map-canvas.map-bg{background:url("/themes/beamon/images/beamonMap.jpg") center;}
+#map-canvas.map-bg{background:url("themes/beamon/images/beamonMap.jpg") center;}
 /*icons*/
 .beamon-icon{display:block;padding-left:40px;position: relative;min-height: 40px;padding-top:4px;}
 .beamon-icon:before{width:34px;
