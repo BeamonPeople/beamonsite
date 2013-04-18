@@ -283,7 +283,7 @@ a.green,a.green:link,a.green:hover,a.green:visited
 }
 .page-list a.active:after {
     bottom: -86px;
-    content: url("/themes/beamon/images/ajax-response-arrow.png");
+    content: url("../images/ajax-response-arrow.png");
     left: 79px;
     position: absolute;
 }
@@ -320,7 +320,7 @@ a.green,a.green:link,a.green:hover,a.green:visited
 .ajax-response.hide .container, .ajax-response.loading .container{height:0px;opacity:0; }
 .ajax-response.loading
 {
-	background-image:url("/themes/beamon/images/loading.gif");
+	background-image:url("../images/loading.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	height:150px;
@@ -476,7 +476,7 @@ footer .container{padding:30px 10px 0 10px;}
 		-o-user-select: none;
 		user-select: none;  
 }
-#map-canvas.map-bg{background:url("/themes/beamon/images/beamonMap.jpg") center;}
+#map-canvas.map-bg{background:url("../images/beamonMap.jpg") center;}
 /*icons*/
 .beamon-icon{display:block;padding-left:40px;position: relative;min-height: 40px;padding-top:4px;}
 .beamon-icon:before{width:34px;
