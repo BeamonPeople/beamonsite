@@ -521,7 +521,7 @@ footer .container{padding:30px 10px 0 10px;}
 	.career .text {width:320px;}
 	.career {margin-left:20px;}
 }
-/*Special för masonrylinjerna i Jobb och Aktuellt*/
+/*Special för masonrylinjerna i Jobb    och Aktuellt*/
 @media (min-width: 1024px){
 #shuffle div:nth-of-type(-n+2) {border-top:none;} 
 .news-list-full article:nth-of-type(-n+2) h3{border-top:none;}
