@@ -1,5 +1,4 @@
 <?php 
-$this->inc('analyticstracking.php');
 defined('C5_EXECUTE') or die(_("Access Denied."));
 $hh = Loader::helper('html');
 $this->inc('elements/news_lister.php');

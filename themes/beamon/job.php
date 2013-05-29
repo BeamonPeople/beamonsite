@@ -5,7 +5,6 @@ if($_GET["type"] != "ajax")
 {
 $this->inc('elements/header.php');
 $this->inc('elements/navbar.php'); 
-$this->inc('analyticstracking.php');
 }
 ?>
 <div class="container wrapper job">
