@@ -4,7 +4,9 @@ $this->inc('elements/header.php');
 $this->inc('elements/navbar.php');
 $this->inc('elements/mini_grid.php');
 $this->inc('elements/news_lister.php');
+$this->inc('analyticstracking.php');
 ?>
+
 <div class="container wrapper">
 <div class="row">
 	<div class="span10 intro-text">

@@ -1,6 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,400italic);
 body{min-width:370px;}
-html body{font-family: "Open Sans";-webkit-font-smoothing: antialiased;font-smoothing: antialiased;}
+html body{
+	font-family: "Open Sans";
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	}
 
 /* Main Framework */
 .error{color:red;}
@@ -521,7 +525,7 @@ footer .container{padding:30px 10px 0 10px;}
 	.career .text {width:320px;}
 	.career {margin-left:20px;}
 }
-/*Special för masonrylinjerna i Jobb    och Aktuellt*/
+/*Special för masonrylinjerna i Jobb och Aktuellt*/
 @media (min-width: 1024px){
 #shuffle div:nth-of-type(-n+2) {border-top:none;} 
 .news-list-full article:nth-of-type(-n+2) h3{border-top:none;}
