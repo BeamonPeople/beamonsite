@@ -1,5 +1,4 @@
 <?php 
-$this->inc('analyticstracking.php');
 defined('C5_EXECUTE') or die(_("Access Denied."));
 //$headers = ;
 if(($_GET["type"] != "ajax") && ($_GET["type"] != "edit") && !($c->isEditMode()))

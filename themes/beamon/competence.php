@@ -1,7 +1,4 @@
-<?php 
-$this->inc('analyticstracking.php');
-?>
-<?php 
+<?php
 defined('C5_EXECUTE') or die(_("Access Denied."));
 $html = Loader::helper('html');
 $themePath = $this->getThemePath();
