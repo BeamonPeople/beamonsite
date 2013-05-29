@@ -21,6 +21,7 @@ $GLOBALS['imgs'] = $themePath."/images";
 <!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="X-UA-Compatible" content="edge">
 <?php 
 //pollyfillz
 Loader::element('header_required');
